@@ -4,7 +4,7 @@ export default function CoachingPrograms() {
     return (
         <section className="flex flex-col items-center py-8">
             <h1 className="font-bold text-2xl">Comprehensive Coaching Programs</h1>
-            <div className="flex justify-center gap-8 items-center p-8">
+            <div className="flex flex-col justify-center gap-8 items-center p-8 sm:flex-row">
                 <AnimatedProgramCard 
                     title='1:1 Coaching for Athletes'
                     description='One-on-one coaching tailored to your specific goals, experience level, and schedule.'

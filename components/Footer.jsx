@@ -10,8 +10,8 @@ export default function Footer() {
                 <a href='https://www.linkedin.com/in/caden-schoffelman-46066a111/' target='_blank' rel='noopener'><FaLinkedin size={24}/></a>
                 <a href='https://www.threads.com/@coach_caden' target='_blank' rel='noopener'><FaThreads size={24}/></a>
             </div>
-            <p className='text-xs'>@2025 Based Coaching. All Rights Reserved.</p>
-            <p className='text-xs'>Privacy Policy | Terms of Service</p>
+            <p className='text-xs text-red-300'>@2025 Based Coaching. All Rights Reserved.</p>
+            <p className='text-xs text-red-300'>Privacy Policy | Terms of Service</p>
         </footer>
     )
 }
