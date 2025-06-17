@@ -7,7 +7,7 @@ import carlos from '../assets/carlos.png'
 export default function Coaches() {
     return (
         <main>
-            <h1 className='text-5xl font-bold pt-8'>Meet our Fantastic Coaches</h1>
+            <h1 className='text-4xl font-bold pt-8 pb-2'>Meet our Fantastic Coaches</h1>
             <div className='flex flex-col py-8 gap-4'>
                 <CoachInfo 
                     name='Caden Schoffelman- Head Coach'
@@ -21,7 +21,7 @@ export default function Coaches() {
                     }
                 />
                     
-                <hr className="w-3/4 h-0.25 bg-red-900 border-none"/>
+                <hr className="w-3/4 h-0.25 bg-red-800/50 border-none"/>
 
                 <CoachInfo 
                     delay='animation-delay-200'
@@ -36,7 +36,7 @@ export default function Coaches() {
                     }
                 />
 
-                <hr className="w-3/4 h-0.25 bg-red-900 border-none"/>
+                <hr className="w-3/4 h-0.25 bg-red-800/50 border-none"/>
 
                 <CoachInfo 
                     delay='animation-delay-400'

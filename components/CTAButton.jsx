@@ -1,6 +1,6 @@
 import { clsx } from "clsx"
 
-export default function CTAButton() {
+export default function CTAButton({text='Apply Now'}) {
     const ctaButtonClass = clsx('bg-red-700', 'px-4 py-2', 'text-white text-sm', 'rounded-lg', 'font-bold', 'opacity-0.6', 'shadow-lg')
     const hoverClass = 'hover:bg-red-600 hover:px-4.5 hover:py-2.5'
     return (
@@ -10,7 +10,7 @@ export default function CTAButton() {
             rel='noopener'
             className={clsx(ctaButtonClass, hoverClass)}
         >
-            Apply Now
+            {text}
         </a>
     )
 }
