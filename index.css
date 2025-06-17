@@ -40,6 +40,17 @@ main {
   }
 }
 
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @keyframes scroll-left {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-25%); }
@@ -53,6 +64,14 @@ main {
 .card:nth-child(2) {
   animation-delay: 0.3s; /* Stagger the second card */
 }
+
+.fade-in-right {
+  opacity: 0;
+  animation: fadeInRight 0.8s ease-out forwards;
+}
+
+.animation-delay-200 { animation-delay: 200ms; }
+.animation-delay-400 { animation-delay: 400ms; }
 
 .scroll-content {
     white-space: nowrap;
