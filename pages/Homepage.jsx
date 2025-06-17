@@ -1,5 +1,13 @@
+import CoachingPrograms from "../components/homeComponents/CoachingPrograms";
+import HeroSection from "../components/homeComponents/HeroSection";
+import Testimonials from "../components/homeComponents/Testimonials";
+
 export default function Homepage() {
     return (
-        <div><h1>Homepage</h1></div>
+        <main>
+            <HeroSection />
+            <CoachingPrograms />
+            <Testimonials />
+        </main>
     )
 }

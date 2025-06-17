@@ -3,6 +3,7 @@ import MainLayout from "./layouts/MainLayout"
 import Contact from "./pages/Contact"
 import Homepage from "./pages/Homepage"
 import Coaches from "./pages/Coaches"
+import Programs from "./pages/Programs"
 
 const router = createBrowserRouter(
     [
@@ -12,6 +13,7 @@ const router = createBrowserRouter(
             children: [
                 { index: true, element: <Homepage /> },
                 { path: "coaches", element: <Coaches /> },
+                { path: "programs", element: <Programs /> },
                 { path: "contact", element: <Contact /> },
             ]
         }
