@@ -15,9 +15,11 @@ export default function HeroSection() {
             />
             {/* Dark Overlay */}
             <div className="absolute inset-0 bg-black/75 z-10"></div>
-            <h1 className="relative z-20 text-5xl font-bold italic">SMASH PRS. BUILD LEGACY.</h1>
-            <p className="relative z-20">Join 300+ powerlifters who’ve built total strength, crushed DOTS scores, and leveled up with customized strength training programs.</p>
-            <div className="relative z-20"><CTAButton /></div>
+            <div className='relative z-20 flex flex-col px-4 items-center justify-center gap-6 text-center'>
+                <h1 className="text-5xl font-bold italic">SMASH PRS. BUILD LEGACY.</h1>
+                <p>Join 300+ powerlifters who’ve built total strength, crushed DOTS scores, and leveled up with customized strength training programs.</p>
+                <div><CTAButton /></div>
+            </div>
         </section>
     )
 }

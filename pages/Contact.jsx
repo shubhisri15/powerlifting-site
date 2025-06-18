@@ -7,7 +7,7 @@ export default function Contact() {
     
     return (
         <main>
-            <form className='flex flex-col bg-red-900/50 p-4 mb-8 gap-3 w-1/3 card rounded-lg shadow-lg border-1 border-red-800/60'>
+            <form className='flex flex-col bg-red-900/50 p-4 mb-8 gap-3 sm:w-1/3 w-9/10 card rounded-lg shadow-lg border-1 border-red-800/60'>
                     <h2 className='text-xl font-bold text-center'>General Enquiries</h2>
                     <p className='text-red-300 text-center text-sm p-4'>If you have any feedback, or questions about our website / services, please send us a message by completing our enquiry form.</p>
                     <label htmlFor="name" required className='text-sm font-bold'>First Name</label>
